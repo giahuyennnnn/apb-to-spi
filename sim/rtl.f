@@ -1,0 +1,10 @@
+../rtl/apb_bus.v
+../rtl/ip_spi_top.v
+../rtl/fifo.v
+../rtl/interrupt.v
+../rtl/register.v
+../rtl/spi_cs_gen.v
+../rtl/spi_fsm_ctrl.v
+../rtl/spi_shift_datapath.v
+../rtl/spi_sclk_gen.v
+../rtl/spi_master.v
