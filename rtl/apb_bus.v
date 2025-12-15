@@ -52,6 +52,6 @@ assign o_prdata = o_pready? i_rdata: 32'b0;
 
 assign o_pready = 1'b1;
 //pslverr
-	assign o_pslverr = o_pready & (i_error | (i_psel & i_penable & (i_paddr[31:0] >= 32'h40002018 & i_paddr[31:0] <= 32'h40002FFF & i_paddr[31:12] != 20'h40002)));  
+	assign o_pslverr = o_pready & (i_error | (i_psel & i_penable & (i_paddr[31:0] >= 32'h40002018 & i_paddr[31:0] <= 32'h40002FFF )));  
 
 endmodule
